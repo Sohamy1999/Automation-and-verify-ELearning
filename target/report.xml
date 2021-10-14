@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="295.640163">
+    <testcase classname="Automation Testing of Elearning Website" name="Automated Social network site" time="54.558731">
+        <system-out><![CDATA[Given User is on the home page..............................................passed
+When User enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the social network on the menu bar.......................passed
+Then User gets redirected to the social network page........................passed
+When User enters the"svdfavfjs","12321","@$%&",""in the comment field.......passed
+And User clicks the post button.............................................passed
+Then User views his posted comment..........................................passed
+Then User verifies the comment for 256 characters...........................passed
+And User replies to the posted comment "svdfavfjs","12321","@$%&",""........passed
+And User clicks on post button..............................................passed
+Then User deletes the reply.................................................passed
+Then User delets the comment................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Elearning Website" name="Automated Social network site my friends section" time="40.184288">
+        <system-out><![CDATA[Given User is on the home page..............................................passed
+When User enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the social network on the menu bar.......................passed
+Then User gets redirected to the social network page........................passed
+When User enters a string "r" in the friends search field...................passed
+Then User clicks on the search button.......................................passed
+And User gets redirected to the search page.................................passed
+Then User verifies the result...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Elearning Website" name="Automated search page" time="56.859798">
+        <system-out><![CDATA[Given User is on the home page..............................................passed
+When User enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the social network on the menu bar.......................passed
+Then User gets redirected to the social network page........................passed
+When User clicks on the search button while field is null...................passed
+Then User gets redirected to the detailed search page area..................passed
+Then User enters "r" letter or word in the search field.....................passed
+And User selects User from drop down options................................passed
+Then User clicks on search icon.............................................passed
+And User is able to see the related user results............................passed
+Then User selects Groups from drop down field options.......................passed
+And User clicks on search button............................................passed
+Then User is able to see the groups related results.........................passed
+Then User selects select from drop down field...............................passed
+And User clicks on search tab...............................................passed
+Then User is able to see both the user and groups related results...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Elearning Website" name="Automated uploading post with other user" time="80.212607">
+        <system-out><![CDATA[Given User is on the home page..............................................passed
+When User enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the social network on the menu bar.......................passed
+Then User gets redirected to the social network page........................passed
+When User clicks on the search button while field is empty..................passed
+Then User again gets redirected to the detailed search page.................passed
+Then User enters a "r" letter or word in the search field...................passed
+And User selects User from drop down field..................................passed
+Then User clicks search.....................................................passed
+And User is able to see the user related results............................passed
+Then User clicks on send invitation to a specific user......................passed
+And User is able to view a popup window.....................................passed
+Then User enters the message "sdasfds","123124","$%&&^%","".................passed
+And User click on send invitation button....................................passed
+Then User verifies the message is sent......................................passed
+Then User clicks on the send message button.................................passed
+And User is able to view the send message popup window......................passed
+Then User enters title "TITLE" and message "sdasfds","123124","$%&&^%",""...passed
+And User clicks on the send this message button.............................passed
+Then User verifies if the message is sent...................................passed
+Then User closes the popup window...........................................passed
+Then User clicks over users name (wish to send post with)...................passed
+And User gets redirected to the users social wall...........................passed
+When User enters "sdasfds","123124","$%&&^%","".............................passed
+And User clicks post button.................................................passed
+Then User views the uploaded post "sdasfds","123124","$%&&^%",""............passed
+And User also deletes the post..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Elearning Website" name="Automated group information" time="63.824739">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:96)&#13;&#10;&#9;at Stepdefination.stepdefination.user_writes_the_subject_and_message(stepdefination.java:1529)&#13;&#10;&#9;at ✽.And User writes the subject and message,&quot;sdasfds&quot;,&quot;123124&quot;,&quot;$%&amp;&amp;^%&quot;,&quot;&quot;(Sitefeature.feature:114)&#13;&#10;"><![CDATA[Given User is on the home page..............................................passed
+When User enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the social network on the menu bar.......................passed
+Then User gets redirected to the social network page........................passed
+When User clicks on the search button while field is empty again............passed
+Then User gets redirected to the detailed search page.......................passed
+Then User enters a string "r" letter or word in the search field............passed
+And User selects Groups from drop down field................................passed
+Then User clicks on search..................................................passed
+And User is able to see the related results.................................passed
+Then User clicks on see more or group name to see more details about the group.passed
+And User sees earlier discussions in discussion tab.........................passed
+When User clicks on members.................................................passed
+Then User can view members of the group.....................................passed
+Then User clicks on compose message if already joined group.................passed
+And User can see the compose message window pop.............................passed
+And User writes the subject and message,"sdasfds","123124","$%&&^%",""......failed
+Then User clicks on the send button.........................................skipped
+Then User gets redirected to the discussion page............................skipped
+And User sees the sent message..............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at Stepdefination.stepdefination.user_writes_the_subject_and_message(stepdefination.java:1529)
+	at ✽.And User writes the subject and message,"sdasfds","123124","$%&&^%",""(Sitefeature.feature:114)
+]]></failure>
+    </testcase>
+</testsuite>

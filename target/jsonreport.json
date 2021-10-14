@@ -1,0 +1,1620 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Automated login and navigate to social network site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2265027300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2128760700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username and password",
+            "match": {
+              "location": "stepdefination.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4983447800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3039006800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gets redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3636582300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on the social network on the menu bar",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_social_network_on_the_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031631000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User gets redirected to the social network page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_social_network_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11522076600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.initialization()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Automated Social network site",
+        "description": "",
+        "id": "automation-testing-of-elearning-website;automated-social-network-site;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2001544000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.closerdriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5262913500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters the\"svdfavfjs\",\"12321\",\"@$%\u0026\",\"\"in the comment field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "svdfavfjs",
+                  "offset": 16
+                },
+                {
+                  "val": "12321",
+                  "offset": 28
+                },
+                {
+                  "val": "@$%\u0026",
+                  "offset": 36
+                },
+                {
+                  "val": "",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefination.user_enters_the_in_the_comment_field(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3259659000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks the post button",
+            "match": {
+              "location": "stepdefination.user_clicks_the_post_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035596000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User views his posted comment",
+            "match": {
+              "location": "stepdefination.user_views_his_posted_comment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2031424300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User verifies the comment for 256 characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "256",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefination.user_verifies_the_comment_for_characters(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4163470400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User replies to the posted comment \"svdfavfjs\",\"12321\",\"@$%\u0026\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "svdfavfjs",
+                  "offset": 36
+                },
+                {
+                  "val": "12321",
+                  "offset": 48
+                },
+                {
+                  "val": "@$%\u0026",
+                  "offset": 56
+                },
+                {
+                  "val": "",
+                  "offset": 63
+                }
+              ],
+              "location": "stepdefination.user_replies_to_the_posted_comment(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56301700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks on post button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_post_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4073891800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User deletes the reply",
+            "match": {
+              "location": "stepdefination.user_deletes_the_reply()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2067397900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User delets the comment",
+            "match": {
+              "location": "stepdefination.user_delets_the_comment()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Automated login and navigate to social network site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2123566200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2118566700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username and password",
+            "match": {
+              "location": "stepdefination.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6195805600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3033654700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gets redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3439715100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on the social network on the menu bar",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_social_network_on_the_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2028041800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User gets redirected to the social network page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_social_network_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11309750700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.initialization()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Automated Social network site my friends section",
+        "description": "",
+        "id": "automation-testing-of-elearning-website;automated-social-network-site-my-friends-section;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000382700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.closerdriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 55473200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User enters a string \"r\" in the friends search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "r",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefination.user_enters_a_character_in_the_friends_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3778515400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User clicks on the search button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3058258800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User gets redirected to the search page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1042556900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User verifies the result",
+            "match": {
+              "location": "stepdefination.user_verifies_the_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Automated login and navigate to social network site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2147959400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2119571900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username and password",
+            "match": {
+              "location": "stepdefination.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5104921300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3026816600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gets redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3508874700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on the social network on the menu bar",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_social_network_on_the_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2024657900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User gets redirected to the social network page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_social_network_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11109745100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.initialization()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Automated search page",
+        "description": "",
+        "id": "automation-testing-of-elearning-website;automated-search-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000321000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.closerdriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2150787300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User clicks on the search button while field is null",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_search_button_while_field_is_null()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3046246300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User gets redirected to the detailed search page area",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_detailed_search_page_area()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55970400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User enters \"r\" letter or word in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "r",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefination.user_enters_letter_or_word_in_the_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2123914300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User selects User from drop down options",
+            "match": {
+              "location": "stepdefination.user_selects_User_from_drop_down_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2818810000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User clicks on search icon",
+            "match": {
+              "location": "stepdefination.user_clicks_on_search_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2025689200,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User is able to see the related user results",
+            "match": {
+              "location": "stepdefination.user_is_able_to_see_the_related_user_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2124314100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User selects Groups from drop down field options",
+            "match": {
+              "location": "stepdefination.user_selects_Groups_from_drop_down_field_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2285836700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2022745500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User is able to see the groups related results",
+            "match": {
+              "location": "stepdefination.user_is_able_to_see_the_groups_related_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2107987100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User selects select from drop down field",
+            "match": {
+              "location": "stepdefination.user_selects_select_from_drop_down_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2990870700,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User clicks on search tab",
+            "match": {
+              "location": "stepdefination.user_clicks_on_search_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2063758800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User is able to see both the user and groups related results",
+            "match": {
+              "location": "stepdefination.user_is_able_to_see_both_the_user_and_groups_related_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Automated login and navigate to social network site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2122084700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2109010500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username and password",
+            "match": {
+              "location": "stepdefination.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5209640500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3029299000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gets redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3003442800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on the social network on the menu bar",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_social_network_on_the_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2037513200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User gets redirected to the social network page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_social_network_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11382093500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.initialization()"
+            }
+          }
+        ],
+        "line": 99,
+        "name": "Automated uploading post with other user",
+        "description": "",
+        "id": "automation-testing-of-elearning-website;automated-uploading-post-with-other-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2002080700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.closerdriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2113819400,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User clicks on the search button while field is empty",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_search_button_while_field_is_empty()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3039738600,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User again gets redirected to the detailed search page",
+            "match": {
+              "location": "stepdefination.user_again_gets_redirected_to_the_detailed_search_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56339000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User enters a \"r\" letter or word in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "r",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefination.user_enters_a_letter_or_word_in_the_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2108066600,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User selects User from drop down field",
+            "match": {
+              "location": "stepdefination.user_selects_User_from_drop_down_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2689577100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User clicks search",
+            "match": {
+              "location": "stepdefination.user_clicks_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2028482900,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User is able to see the user related results",
+            "match": {
+              "location": "stepdefination.user_is_able_to_see_the_user_related_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42003800,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User clicks on send invitation to a specific user",
+            "match": {
+              "location": "stepdefination.user_clicks_on_send_invitation_to_a_specific_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2018312600,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User is able to view a popup window",
+            "match": {
+              "location": "stepdefination.user_is_able_to_view_a_popup_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4189923900,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "User enters the message \"sdasfds\",\"123124\",\"$%\u0026\u0026^%\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdasfds",
+                  "offset": 25
+                },
+                {
+                  "val": "123124",
+                  "offset": 35
+                },
+                {
+                  "val": "$%\u0026\u0026^%",
+                  "offset": 44
+                },
+                {
+                  "val": "",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefination.user_enters_the_message(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53679000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User click on send invitation button",
+            "match": {
+              "location": "stepdefination.user_click_on_send_invitation_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2054567100,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User verifies the message is sent",
+            "match": {
+              "location": "stepdefination.user_verifies_the_message_is_sent()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1039355900,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User clicks on the send message button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_send_message_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2020084300,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "User is able to view the send message popup window",
+            "match": {
+              "location": "stepdefination.user_is_able_to_view_the_send_message_popup_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5323105900,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "User enters title \"TITLE\" and message \"sdasfds\",\"123124\",\"$%\u0026\u0026^%\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TITLE",
+                  "offset": 19
+                },
+                {
+                  "val": "sdasfds",
+                  "offset": 39
+                },
+                {
+                  "val": "123124",
+                  "offset": 49
+                },
+                {
+                  "val": "$%\u0026\u0026^%",
+                  "offset": 58
+                },
+                {
+                  "val": "",
+                  "offset": 67
+                }
+              ],
+              "location": "stepdefination.user_enters_title_and_message(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1069785400,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "User clicks on the send this message button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_send_this_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2032059000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User verifies if the message is sent",
+            "match": {
+              "location": "stepdefination.user_verifies_if_the_message_is_sent()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35526800,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "User closes the popup window",
+            "match": {
+              "location": "stepdefination.user_closes_the_popup_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2412595700,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "User clicks over users name (wish to send post with)",
+            "match": {
+              "location": "stepdefination.user_clicks_over_users_name_wish_to_send_post_with()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3036598900,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "User gets redirected to the users social wall",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_user_s_social_wall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4154199700,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "User enters \"sdasfds\",\"123124\",\"$%\u0026\u0026^%\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdasfds",
+                  "offset": 13
+                },
+                {
+                  "val": "123124",
+                  "offset": 23
+                },
+                {
+                  "val": "$%\u0026\u0026^%",
+                  "offset": 32
+                },
+                {
+                  "val": "",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefination.user_enters(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2694321100,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "User clicks post button",
+            "match": {
+              "location": "stepdefination.user_clicks_post_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3034258300,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "User views the uploaded post \"sdasfds\",\"123124\",\"$%\u0026\u0026^%\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdasfds",
+                  "offset": 30
+                },
+                {
+                  "val": "123124",
+                  "offset": 40
+                },
+                {
+                  "val": "$%\u0026\u0026^%",
+                  "offset": 49
+                },
+                {
+                  "val": "",
+                  "offset": 58
+                }
+              ],
+              "location": "stepdefination.user_views_the_uploaded_post(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2071040800,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "User also deletes the post",
+            "match": {
+              "location": "stepdefination.user_also_deletes_the_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Automated login and navigate to social network site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2132311700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2132940400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username and password",
+            "match": {
+              "location": "stepdefination.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5661787300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3026634400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User gets redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3368404700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on the social network on the menu bar",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_social_network_on_the_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2025373600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User gets redirected to the social network page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_social_network_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11368169700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.initialization()"
+            }
+          }
+        ],
+        "line": 121,
+        "name": "Automated group information",
+        "description": "",
+        "id": "automation-testing-of-elearning-website;automated-group-information;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000173200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstart.closerdriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2049541500,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "User clicks on the search button while field is empty again",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_search_button_while_field_is_empty_again()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3045019300,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User gets redirected to the detailed search page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_detailed_search_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57023200,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User enters a string \"r\" letter or word in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "r",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefination.user_enters_a_string_letter_or_word_in_the_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2104134000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "User selects Groups from drop down field",
+            "match": {
+              "location": "stepdefination.user_selects_Groups_from_drop_down_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2221345300,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "User clicks on search",
+            "match": {
+              "location": "stepdefination.user_clicks_on_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2023544600,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User is able to see the related results",
+            "match": {
+              "location": "stepdefination.user_is_able_to_see_the_related_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4166446700,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User clicks on see more or group name to see more details about the group",
+            "match": {
+              "location": "stepdefination.user_clicks_on_see_more_or_group_name_to_see_more_details_about_the_group()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2027376600,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User sees earlier discussions in discussion tab",
+            "match": {
+              "location": "stepdefination.user_sees_earlier_discussions_in_discussion_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2054330200,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User clicks on members",
+            "match": {
+              "location": "stepdefination.user_clicks_on_members()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2031727400,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "User can view members of the group",
+            "match": {
+              "location": "stepdefination.user_can_view_members_of_the_group()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5117021500,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "User clicks on compose message if already joined group",
+            "match": {
+              "location": "stepdefination.user_clicks_on_compose_message_if_already_joined_group()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2026160400,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "User can see the compose message window pop",
+            "match": {
+              "location": "stepdefination.user_can_see_the_compose_message_window_pop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3185273600,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat Stepdefination.stepdefination.user_writes_the_subject_and_message(stepdefination.java:1529)\r\n\tat ✽.And User writes the subject and message,\"sdasfds\",\"123124\",\"$%\u0026\u0026^%\",\"\"(Sitefeature.feature:114)\r\n",
+              "status": "failed"
+            },
+            "line": 114,
+            "name": "User writes the subject and message,\"sdasfds\",\"123124\",\"$%\u0026\u0026^%\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdasfds",
+                  "offset": 37
+                },
+                {
+                  "val": "123124",
+                  "offset": 47
+                },
+                {
+                  "val": "$%\u0026\u0026^%",
+                  "offset": 56
+                },
+                {
+                  "val": "",
+                  "offset": 65
+                }
+              ],
+              "location": "stepdefination.user_writes_the_subject_and_message(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "User clicks on the send button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_send_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 116,
+            "name": "User gets redirected to the discussion page",
+            "match": {
+              "location": "stepdefination.user_gets_redirected_to_the_discussion_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 117,
+            "name": "User sees the sent message",
+            "match": {
+              "location": "stepdefination.user_sees_the_sent_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Testing of Elearning Website",
+    "description": "",
+    "id": "automation-testing-of-elearning-website",
+    "keyword": "Feature",
+    "uri": "Sitefeature.feature"
+  }
+]
